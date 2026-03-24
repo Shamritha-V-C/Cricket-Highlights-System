@@ -31,7 +31,7 @@ int main() {
         // WICKET CASE
         if (balls[i] == -1) {
             wickets++;
-            cout << "WICKET! 🎯\n";
+            cout << "WICKET! \n";
             consecutiveDots = 0;
         }
         else {
@@ -53,10 +53,10 @@ int main() {
 
                 // BOUNDARY CASE
                 if (balls[i] == 4) {
-                    cout << "FOUR! 🔥 (Highlight)\n";
+                    cout << "FOUR!  (Highlight)\n";
                 }
                 else if (balls[i] == 6) {
-                    cout << "SIX! 🚀 (Highlight)\n";
+                    cout << "SIX!  (Highlight)\n";
                 }
                 else {
                     cout << balls[i] << " runs\n";
@@ -66,10 +66,10 @@ int main() {
 
         // MILESTONE CASE
         if (totalRuns == 50) {
-            cout << "  -> Half Century Reached! 🏆\n";
+            cout << "  -> Half Century Reached! \n";
         }
         if (totalRuns == 100) {
-            cout << "  -> Century Reached! 💯\n";
+            cout << "  -> Century Reached! \n";
         }
 
         // OVER CASE (every 6 balls)
@@ -77,7 +77,7 @@ int main() {
             cout << "  Over " << (i + 1) / 6 << " Runs: " << overRuns;
 
             if (overRuns >= 15) {
-                cout << " 🔥 High Scoring Over!";
+                cout << "  High Scoring Over!";
             }
             cout << endl;
 
@@ -86,7 +86,7 @@ int main() {
 
         // WINNING MOMENT
         if (totalRuns >= target) {
-            cout << "\n🎉 Match Won on Ball " << i + 1 << "! (Winning Highlight)\n";
+            cout << "\n Match Won on Ball " << i + 1 << "! (Winning Highlight)\n";
             break;
         }
     }
