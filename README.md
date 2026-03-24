@@ -8,7 +8,6 @@ Objectives:
 - To reduce manual effort in analyzing matches
 - To provide quick and accurate match summaries
 
-
 Features
 -  Detects boundaries (4s and 6s)
 -  Identifies wickets
@@ -27,10 +26,12 @@ The system processes input data for each ball and applies conditions:
 - Tracks total score and milestones
 - Groups every 6 balls as one over
 
-
 Technologies Used:
 - C++
 - Standard Template Library (STL)
 - Basic Data Structures (Vectors)
+
+Author:
+SHAMRITHA V C (111622104085) RMKCET
 
 
